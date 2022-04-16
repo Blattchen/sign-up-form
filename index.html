@@ -15,38 +15,40 @@
         <img src="./img/ethislans2.png" alt="picture">
     </div>
     <div class="content">
-        <div class="text">Some Sample Text</div>
+        <div class="text">This is not a real service. This is just an example to show a sign-up form and to practise
+        </div>
+        <div class="text">Try it out</div>
         <form action="#">
             <div class="form">
                 <h3>Let's do this</h3>
                 <div class="input">
                     <label for="firstName">FIRST NAME</label>
-                    <input id="firstName" type="text">
+                    <input id="firstName" type="text" required>
                 </div>
                 <div class="input">
                     <label for="lastName">LAST NAME</label>
-                    <input id="lastName" type="text">
+                    <input id="lastName" type="text" required>
                 </div>
                 <div class="input">
                     <label for="email">EMAIL</label>
-                    <input id="email" type="email">
+                    <input id="email" type="email" required>
                 </div>
                 <div class="input">
                     <label for="phone">PHONE NUMBER</label>
-                    <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    <input id="phone" type="tel" required>
                 </div>
                 <div class="input">
                     <label for="pass">PASSWORD</label>
-                    <input id="pass" type="password">
+                    <input id="pass" type="password" required>
                 </div>
                 <div class="input">
                     <label for="confirmPass">CONFIRM PASSWORD</label>
-                    <input id="confirmPass" type="password">
+                    <input id="confirmPass" type="password" required>
                 </div>
             </div>
             <input type="submit" value="Create Account">
         </form>
-        <div class="logIn">Already have an account? Log in</div>
+        <div class="logIn">Already have an account? <span>Log In</span></div>
     </div>
 </body>
 
